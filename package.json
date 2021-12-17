@@ -1,0 +1,21 @@
+{
+  "name": "bite.js",
+  "private": true,
+  "description": "project compilation and packaging for one-stop development tool",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/anijs6/bite.js/issues"
+  },
+  "homepage": "https://github.com/anijs6/bite.js#readme",
+  "devDependencies": {
+    "@anijs/eslint-config": "^0.5.1",
+    "@anijs/prettier": "^1.1.0",
+    "eslint": "^8.4.1",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  }
+}

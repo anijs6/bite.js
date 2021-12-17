@@ -1,0 +1,6 @@
+{
+  "extends": ["@anijs"],
+  "rules": {
+    "yml/quotes": ["error", { "prefer": "double" }]
+  }
+}
