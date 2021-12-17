@@ -27,6 +27,17 @@ importers:
       shell-quote: 1.7.3
       typescript: 4.5.4
 
+  packages/bite:
+    specifiers:
+      "@types/node": ^17.0.0
+      "@types/semver": ^7.3.9
+      semver: ^7.3.5
+    dependencies:
+      semver: 7.3.5
+    devDependencies:
+      "@types/node": 17.0.0
+      "@types/semver": 7.3.9
+
 packages:
   /@anijs/eslint-config-common/0.5.0_eslint@8.4.1+prettier@2.5.1:
     resolution:
@@ -1930,6 +1941,14 @@ packages:
       }
     dev: true
 
+  /@types/node/17.0.0:
+    resolution:
+      {
+        integrity: sha512-eMhwJXc931Ihh4tkU+Y7GiLzT/y/DBNpNtr4yU9O2w3SYBsr9NaOPhQlLKRmoWtI54uNwuo0IOUFQjVOTZYRvw==,
+        tarball: "@types/node/download/@types/node-17.0.0.tgz"
+      }
+    dev: true
+
   /@types/normalize-package-data/2.4.1:
     resolution:
       {
@@ -1943,6 +1962,14 @@ packages:
       {
         integrity: sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=,
         tarball: "@types/parse-json/download/@types/parse-json-4.0.0.tgz?cache=0&sync_timestamp=1637393019617&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fparse-json%2Fdownload%2F%40types%2Fparse-json-4.0.0.tgz"
+      }
+    dev: true
+
+  /@types/semver/7.3.9:
+    resolution:
+      {
+        integrity: sha1-FSxsIKdojDC5Z+wYQdMazlaYY/w=,
+        tarball: "@types/semver/download/@types/semver-7.3.9.tgz"
       }
     dev: true
 
@@ -5110,7 +5137,6 @@ packages:
     engines: { node: ">=10" }
     dependencies:
       yallist: 4.0.0
-    dev: true
 
   /make-dir/2.1.0:
     resolution: { integrity: sha1-XwMQ4YuL6JjMBwCSlaMK5B6R5vU=, tarball: make-dir/download/make-dir-2.1.0.tgz }
@@ -6615,7 +6641,6 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-    dev: true
 
   /set-blocking/2.0.0:
     resolution:
@@ -7675,7 +7700,6 @@ packages:
 
   /yallist/4.0.0:
     resolution: { integrity: sha1-m7knkNnA7/7GO+c1GeEaNQGaOnI=, tarball: yallist/download/yallist-4.0.0.tgz }
-    dev: true
 
   /yaml-eslint-parser/0.5.0:
     resolution:
