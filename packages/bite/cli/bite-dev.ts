@@ -1,7 +1,5 @@
 import type { CliDevOptions } from '../types'
 
-async function biteDev(options: CliDevOptions) {
+export async function biteDev(options: CliDevOptions) {
   console.log(options)
 }
-
-export default biteDev

@@ -25,7 +25,16 @@
     ],
     "yml/quotes": ["error", { "prefer": "double" }],
     "unicorn/no-process-exit": "off",
-    "import/prefer-default-export": "off",
-    "jsdoc/require-jsdoc": "off"
-  }
+    "import/prefer-default-export": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "jsdoc/require-jsdoc": "off",
+        "jsdoc/require-returns-type": "off",
+        "jsdoc/require-returns": "off"
+      }
+    }
+  ]
 }

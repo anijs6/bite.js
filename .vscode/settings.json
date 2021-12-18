@@ -33,6 +33,7 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
+    "source.fixAll.markdownlint": true,
     "source.fixAll.eslint": true
   },
   "eslint.alwaysShowStatus": true,

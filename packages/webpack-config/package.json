@@ -1,0 +1,25 @@
+{
+  "name": "@anijs/webpack-config",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "1.0.0",
+  "description": "webpack generic configuration",
+  "keywords": [
+    "webpack",
+    "webpack-config"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "webpack": "^5.65.0"
+  },
+  "devDependencies": {
+    "@types/webpack": "^5.28.0",
+    "webpack": "^5.65.0"
+  }
+}
