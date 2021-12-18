@@ -25,7 +25,8 @@
     ],
     "yml/quotes": ["error", { "prefer": "double" }],
     "unicorn/no-process-exit": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "unicorn/prefer-object-from-entries": "off"
   },
   "overrides": [
     {

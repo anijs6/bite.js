@@ -18,6 +18,9 @@
   "peerDependencies": {
     "webpack": "^5.65.0"
   },
+  "dependencies": {
+    "webpack-merge": "^5.8.0"
+  },
   "devDependencies": {
     "@types/webpack": "^5.28.0",
     "webpack": "^5.65.0"

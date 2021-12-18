@@ -6,3 +6,5 @@ export interface GenerateWebpackCommonConfigOptions {
   mode: mode
   entry?: Configuration['entry']
 }
+
+export type GenerateWebpackConfigOptions = GenerateWebpackCommonConfigOptions

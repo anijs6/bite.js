@@ -46,6 +46,9 @@ importers:
     specifiers:
       "@types/webpack": ^5.28.0
       webpack: ^5.65.0
+      webpack-merge: ^5.8.0
+    dependencies:
+      webpack-merge: 5.8.0
     devDependencies:
       "@types/webpack": 5.28.0
       webpack: 5.65.0
@@ -2906,7 +2909,6 @@ packages:
       is-plain-object: 2.0.4
       kind-of: 6.0.3
       shallow-clone: 3.0.1
-    dev: true
 
   /clone/1.0.4:
     resolution: { integrity: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=, tarball: clone/download/clone-1.0.4.tgz }
@@ -4971,7 +4973,6 @@ packages:
     engines: { node: ">=0.10.0" }
     dependencies:
       isobject: 3.0.1
-    dev: true
 
   /is-plain-object/5.0.0:
     resolution:
@@ -5060,7 +5061,6 @@ packages:
   /isobject/3.0.1:
     resolution: { integrity: sha1-TkMekrEalzFjaqH5yNHMvP2reN8=, tarball: isobject/download/isobject-3.0.1.tgz }
     engines: { node: ">=0.10.0" }
-    dev: true
 
   /isstream/0.1.2:
     resolution: { integrity: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=, tarball: isstream/download/isstream-0.1.2.tgz }
@@ -5221,7 +5221,6 @@ packages:
   /kind-of/6.0.3:
     resolution: { integrity: sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=, tarball: kind-of/download/kind-of-6.0.3.tgz }
     engines: { node: ">=0.10.0" }
-    dev: true
 
   /lerna/4.0.0:
     resolution: { integrity: sha1-sTnWhdUOoMob6HcTp8L0Sltnjp4=, tarball: lerna/download/lerna-4.0.0.tgz }
@@ -7022,7 +7021,6 @@ packages:
     engines: { node: ">=8" }
     dependencies:
       kind-of: 6.0.3
-    dev: true
 
   /shebang-command/2.0.0:
     resolution:
@@ -7982,6 +7980,15 @@ packages:
     engines: { node: ">=10.4" }
     dev: true
 
+  /webpack-merge/5.8.0:
+    resolution:
+      { integrity: sha1-Kznb8ir4d3atdEw5AiNzHTCmj2E=, tarball: webpack-merge/download/webpack-merge-5.8.0.tgz }
+    engines: { node: ">=10.0.0" }
+    dependencies:
+      clone-deep: 4.0.1
+      wildcard: 2.0.0
+    dev: false
+
   /webpack-sources/3.2.2:
     resolution:
       {
@@ -8088,6 +8095,10 @@ packages:
     dependencies:
       string-width: 1.0.2
     dev: true
+
+  /wildcard/2.0.0:
+    resolution: { integrity: sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=, tarball: wildcard/download/wildcard-2.0.0.tgz }
+    dev: false
 
   /word-wrap/1.2.3:
     resolution:
